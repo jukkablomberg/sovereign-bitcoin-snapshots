@@ -1,0 +1,401 @@
+{
+  "series": "State of Sovereign Bitcoin",
+  "snapshot_date": "2026-09-04",
+  "frozen_at": "2026-09-04T00:52:19.008Z",
+  "immutable": true,
+  "methodology_version": "v0.1.0",
+  "source_generated_at": "2026-09-03T06:43:16Z",
+  "btc_price_usd": 77736,
+  "btc_price_eur": 66986,
+  "total_btc_supply": 19850000,
+  "tracked": 11,
+  "holders": 7,
+  "total_held_btc": 630180,
+  "total_held_usd": 48987672480,
+  "pct_of_supply_held": 3.1747,
+  "primary_graded": 1,
+  "sovereigns": [
+    {
+      "country_code": "US",
+      "country_name": "United States",
+      "holdings_btc": 325000,
+      "status": "strategic_reserve",
+      "tier": 1,
+      "framework": "U.S. Strategic Bitcoin Reserve, established by Executive Order 14233 (signed 6 March 2025), capitalised with Bitcoin the federal government already held through criminal and civil forfeiture; the order bars sale of those coins. Implementation is unfinished: as reported by Bloomberg on 2026-07-06, no managing department has been designated and the DOJ Office of Legal Counsel is reviewing which agency may legally hold the assets.",
+      "as_of": "2026-04-30",
+      "sources": [
+        {
+          "label": "U.S. Strategic Bitcoin Reserve — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/U.S._Strategic_Bitcoin_Reserve",
+          "type": "secondary"
+        },
+        {
+          "label": "National Crypto Reserves Tracker — CCN",
+          "url": "https://www.ccn.com/education/crypto/national-crypto-reserves-tracker-countries-bitcoin-state-wealth/",
+          "type": "secondary"
+        },
+        {
+          "label": "Sygnum 2026 sovereign Bitcoin reserves — Cointelegraph",
+          "url": "https://cointelegraph.com/news/2026-sovereign-bitcoin-reserves-tradfi-tokenization-adoption-sygnum",
+          "type": "secondary"
+        },
+        {
+          "label": "Bloomberg: US Strategic Bitcoin Reserve Stalls as Treasury and Commerce Battle for Control (2026-07-07) — Bitcoin.com News",
+          "url": "https://news.bitcoin.com/strategic-bitcoin-reserve-treasury-commerce-turf-war/",
+          "type": "secondary"
+        },
+        {
+          "label": "US Government Holds 328,372 BTC as On-chain Data Confirms Federal Stockpile — Bitcoin.com News",
+          "url": "https://news.bitcoin.com/us-government-holds-328372-btc-as-onchain-data-confirms-23b-federal-crypto-stockpile/",
+          "type": "secondary"
+        },
+        {
+          "label": "Trump's strategic Bitcoin reserve stalls in agency turf war (2026-07-07) — Crypto Valley Journal",
+          "url": "https://cryptovalleyjournal.com/focus/legal-and-compliance/trumps-strategic-bitcoin-reserve-stalls-in-agency-turf-war/",
+          "type": "secondary"
+        }
+      ],
+      "notes": "Holdings figure is an estimate, not an audited public accounting — none has been published. On-chain tracking (Arkham, reported by Bitcoin.com News) puts federal holdings at 328,372 BTC; Bloomberg's 2026-07-06 report describes \"more than 300,000 BTC, worth roughly $21 billion\". The conservative 325,000 BTC low-end figure is retained here pending an official accounting.",
+      "status_history": [
+        {
+          "status": "seized_held",
+          "started_at": "2013-10-01",
+          "ended_at": "2025-03-06",
+          "note": "Pre-formalization holdings from Silk Road and subsequent seizures."
+        },
+        {
+          "status": "strategic_reserve",
+          "started_at": "2025-03-06",
+          "note": "Announced but stalled. Established by Executive Order 14233 (6 March 2025), which directed Treasury and Commerce to develop budget-neutral acquisition strategies. As reported by Bloomberg on 2026-07-06 (via Bitcoin.com News and Crypto Valley Journal), the reserve remains unbuilt: Treasury and Commerce are in a jurisdictional dispute over which department administers it, the DOJ Office of Legal Counsel is working with both to determine legally available options, and officials are separately reviewing whether the government may hold Bitcoin indefinitely. No managing agency designated and no publicly confirmed open-market purchase as of 2026-07-27."
+        }
+      ],
+      "source_quality": "secondary",
+      "_derived": {
+        "usd_value": 25264200000,
+        "eur_value": 21770450000,
+        "pct_of_supply": 1.6373
+      }
+    },
+    {
+      "country_code": "SV",
+      "country_name": "El Salvador",
+      "holdings_btc": 7739,
+      "status": "strategic_reserve",
+      "tier": 2,
+      "framework": "Bitcoin Law (2021); explicit national strategic-reserve framework. Accumulation continues under public 'one BTC per day' policy with periodic top-ups.",
+      "as_of": "2026-08-10",
+      "sources": [
+        {
+          "label": "El Salvador's Bitcoin Reserve Hits 7,565 BTC — MEXC News",
+          "url": "https://www.mexc.com/news/733255",
+          "type": "secondary"
+        },
+        {
+          "label": "Bitcoin Strategic Reserves — Chainalysis",
+          "url": "https://www.chainalysis.com/blog/bitcoin-strategic-reserves/",
+          "type": "secondary"
+        },
+        {
+          "label": "National Bitcoin Office (ONBTC) — official Treasury wallet balance, bitcoin.gob.sv",
+          "url": "https://bitcoin.gob.sv/",
+          "type": "primary"
+        }
+      ],
+      "notes": "First country to formally adopt Bitcoin as legal tender and as a sovereign reserve asset. Holdings re-confirmed 2026-08-10 against the National Bitcoin Office's own published ONBTC Treasury wallet (bitcoin.gob.sv, /api/v1/wallet/ONBTC): 20 government-defined addresses totalling 7,739.37428655 BTC, rounded to 7,739 per §7. The address set is the one the state itself publishes — not an externally assembled cluster. Balance independently reconciled to the satoshi against a second node operator (blockstream.info). This is the first primary-source (methodology §5.1/§5.2) confirmation on this row; the prior 7,565 figure was secondary-sourced and dated 2026-02-15.",
+      "status_history": [
+        {
+          "status": "strategic_reserve",
+          "started_at": "2021-09-07"
+        }
+      ],
+      "source_quality": "primary",
+      "_derived": {
+        "usd_value": 601598904,
+        "eur_value": 518404654,
+        "pct_of_supply": 0.039
+      }
+    },
+    {
+      "country_code": "BT",
+      "country_name": "Bhutan",
+      "holdings_btc": 3654,
+      "status": "divested",
+      "tier": 3,
+      "framework": "Holdings derived from state-operated Bitcoin mining via hydroelectric capacity. Held by Druk Holding & Investments. Materially reduced from ~13,000 BTC peak in 2024–2025 to current level by April 2026.",
+      "as_of": "2026-04-30",
+      "sources": [
+        {
+          "label": "Bhutan quietly moves $42M in Bitcoin in 2026 — Cryptopolitan",
+          "url": "https://www.cryptopolitan.com/bhutan-quietly-moves-42m-in-bitcoin-in-2026/",
+          "type": "secondary"
+        }
+      ],
+      "notes": "Bhutan's path is energy-monetization, not strategic-reserve. Often miscategorized; tracked here as a counter-example for any state considering reserves.",
+      "status_history": [
+        {
+          "status": "strategic_reserve",
+          "started_at": "2024-01-01",
+          "ended_at": "2026-04-30",
+          "note": "Reclassified as 'divested' after large net sales in early 2026."
+        },
+        {
+          "status": "divested",
+          "started_at": "2026-04-30"
+        }
+      ],
+      "source_quality": "secondary",
+      "_derived": {
+        "usd_value": 284047344,
+        "eur_value": 244766844,
+        "pct_of_supply": 0.0184
+      }
+    },
+    {
+      "country_code": "FI",
+      "country_name": "Finland",
+      "holdings_btc": 90,
+      "status": "seized_held",
+      "tier": 4,
+      "framework": "Holdings comprise BTC seized in narcotics-trafficking and money-laundering criminal proceedings, held by Finnish Customs (Tulli) and the National Bureau of Investigation (KRP). No public strategic-reserve framework; no treasury designation. Sammallahti and Paasi (Kokoomus MPs) publicly proposed a strategic-reserve framework in May 2026.",
+      "as_of": "2026-05-15",
+      "sources": [
+        {
+          "label": "Finland Government Bitcoin Holdings — Bitbo",
+          "url": "https://bitbo.io/treasuries/finland/",
+          "type": "secondary"
+        },
+        {
+          "label": "Sammallahti & Paasi: Suomen valtion pitää omistaa bitcoinia — Kauppalehti",
+          "url": "https://www.kauppalehti.fi/uutiset/a/32dff41d-3c2c-4782-9e8d-b527db8b0d17",
+          "type": "secondary"
+        }
+      ],
+      "notes": "Reserve-framework proposal pending. Whitepaper (publishing 23 May 2026) proposes a 5-year ~0.5%-of-state-assets accumulation path (~6,000 BTC).",
+      "status_history": [
+        {
+          "status": "seized_held",
+          "started_at": "2018-01-01"
+        }
+      ],
+      "source_quality": "secondary",
+      "_derived": {
+        "usd_value": 6996240,
+        "eur_value": 6028740,
+        "pct_of_supply": 0.0005
+      }
+    },
+    {
+      "country_code": "PK",
+      "country_name": "Pakistan",
+      "holdings_btc": 0,
+      "status": "announced_not_yet_held",
+      "tier": 5,
+      "framework": "Government of Pakistan publicly announced creation of a Strategic Bitcoin Reserve in 2026. Holdings have not yet been publicly verified.",
+      "as_of": "2026-05-01",
+      "sources": [
+        {
+          "label": "Bitcoin Adoption & Regulation: BTC's 2026 Future — Cryptollia",
+          "url": "https://cryptollia.com/articles/bitcoins-sovereign-embrace-nation-state-adoption-regulatory-clarity-2026-trajectory",
+          "type": "secondary"
+        }
+      ],
+      "notes": "Awaiting first verified holdings disclosure.",
+      "status_history": [
+        {
+          "status": "announced_not_yet_held",
+          "started_at": "2026-04-01"
+        }
+      ],
+      "source_quality": "secondary",
+      "_derived": {
+        "usd_value": 0,
+        "eur_value": 0,
+        "pct_of_supply": 0
+      }
+    },
+    {
+      "country_code": "BR",
+      "country_name": "Brazil",
+      "holdings_btc": 0,
+      "status": "legislation_proposed",
+      "tier": 5,
+      "framework": "RESBit (Reserva Estratégica de Bitcoin) bill reintroduced in Brazilian Congress in February 2026. Proposes federal accumulation of up to 1,000,000 BTC over 5 years (≈5% of total supply).",
+      "as_of": "2026-02-15",
+      "sources": [
+        {
+          "label": "Sygnum 2026 sovereign Bitcoin reserves — Cointelegraph",
+          "url": "https://cointelegraph.com/news/2026-sovereign-bitcoin-reserves-tradfi-tokenization-adoption-sygnum",
+          "type": "secondary"
+        },
+        {
+          "label": "National Crypto Reserves Tracker — CCN",
+          "url": "https://www.ccn.com/education/crypto/national-crypto-reserves-tracker-countries-bitcoin-state-wealth/",
+          "type": "secondary"
+        }
+      ],
+      "notes": "Most concrete sovereign-Bitcoin bill text in existence as of May 2026. The Sovereign Monitor tracks RESBit's legislative progress as a leading indicator.",
+      "status_history": [
+        {
+          "status": "legislation_proposed",
+          "started_at": "2026-02-01"
+        }
+      ],
+      "source_quality": "secondary",
+      "_derived": {
+        "usd_value": 0,
+        "eur_value": 0,
+        "pct_of_supply": 0
+      }
+    },
+    {
+      "country_code": "CZ",
+      "country_name": "Czech Republic",
+      "holdings_btc": 0,
+      "status": "exploring",
+      "tier": 5,
+      "framework": "Czech National Bank (ČNB) Governor Aleš Michl publicly discussed Bitcoin as a potential reserve diversifier in 2025 remarks. No bill filed; no treasury position taken.",
+      "as_of": "2025-12-31",
+      "sources": [
+        {
+          "label": "Sygnum 2026 sovereign Bitcoin reserves — Cointelegraph",
+          "url": "https://cointelegraph.com/news/2026-sovereign-bitcoin-reserves-tradfi-tokenization-adoption-sygnum",
+          "type": "secondary"
+        }
+      ],
+      "notes": "Closest live European peer to the Finnish reserve proposal.",
+      "status_history": [
+        {
+          "status": "exploring",
+          "started_at": "2025-01-01"
+        }
+      ],
+      "source_quality": "secondary",
+      "_derived": {
+        "usd_value": 0,
+        "eur_value": 0,
+        "pct_of_supply": 0
+      }
+    },
+    {
+      "country_code": "DE",
+      "country_name": "Germany",
+      "holdings_btc": 0,
+      "status": "divested",
+      "tier": 5,
+      "framework": "German Federal Criminal Police Office (BKA) sold approximately 50,000 BTC seized from Movie2K case in mid-2024. No subsequent reserve framework adopted.",
+      "as_of": "2024-07-15",
+      "sources": [
+        {
+          "label": "National Crypto Reserves Tracker — CCN",
+          "url": "https://www.ccn.com/education/crypto/national-crypto-reserves-tracker-countries-bitcoin-state-wealth/",
+          "type": "secondary"
+        }
+      ],
+      "notes": "Historical example of a state divesting seized BTC prior to the 2025–2026 sovereign-reserve wave.",
+      "status_history": [
+        {
+          "status": "seized_held",
+          "started_at": "2023-01-01",
+          "ended_at": "2024-07-15"
+        },
+        {
+          "status": "divested",
+          "started_at": "2024-07-15"
+        }
+      ],
+      "source_quality": "secondary",
+      "_derived": {
+        "usd_value": 0,
+        "eur_value": 0,
+        "pct_of_supply": 0
+      }
+    },
+    {
+      "country_code": "UA",
+      "country_name": "Ukraine",
+      "holdings_btc": 46351,
+      "status": "seized_held",
+      "tier": 2,
+      "framework": "Holdings comprise BTC under control of state agencies; mix of donations to the war effort and seizures. No formal strategic-reserve framework.",
+      "as_of": "2024-12-31",
+      "sources": [
+        {
+          "label": "National Crypto Reserves Tracker — CCN",
+          "url": "https://www.ccn.com/education/crypto/national-crypto-reserves-tracker-countries-bitcoin-state-wealth/",
+          "type": "secondary"
+        }
+      ],
+      "notes": "Holdings figure widely cited but subject to wartime classification uncertainty.",
+      "status_history": [
+        {
+          "status": "seized_held",
+          "started_at": "2022-02-24"
+        }
+      ],
+      "source_quality": "secondary",
+      "_derived": {
+        "usd_value": 3603141336,
+        "eur_value": 3104868086,
+        "pct_of_supply": 0.2335
+      }
+    },
+    {
+      "country_code": "GB",
+      "country_name": "United Kingdom",
+      "holdings_btc": 61000,
+      "status": "seized_held",
+      "tier": 2,
+      "framework": "Holdings comprise BTC seized by UK law-enforcement (notably ~61,000 BTC seized in 2018 from a single Chinese money-laundering case). Held by HMRC / Crown Prosecution Service pending forfeiture proceedings. No strategic-reserve framework.",
+      "as_of": "2024-10-30",
+      "sources": [
+        {
+          "label": "National Crypto Reserves Tracker — CCN",
+          "url": "https://www.ccn.com/education/crypto/national-crypto-reserves-tracker-countries-bitcoin-state-wealth/",
+          "type": "secondary"
+        }
+      ],
+      "notes": "Status could shift to 'strategic_reserve' or 'divested' depending on outcome of forfeiture proceedings.",
+      "status_history": [
+        {
+          "status": "seized_held",
+          "started_at": "2018-08-01"
+        }
+      ],
+      "source_quality": "secondary",
+      "_derived": {
+        "usd_value": 4741896000,
+        "eur_value": 4086146000,
+        "pct_of_supply": 0.3073
+      }
+    },
+    {
+      "country_code": "CN",
+      "country_name": "China",
+      "holdings_btc": 190000,
+      "status": "seized_held",
+      "tier": 1,
+      "framework": "Holdings comprise BTC seized in PlusToken and related fraud cases. Held by Chinese state agencies. No public strategic-reserve framework and no recent on-chain confirmation; figure is a widely cited estimate.",
+      "as_of": "2024-12-31",
+      "sources": [
+        {
+          "label": "National Crypto Reserves Tracker — CCN",
+          "url": "https://www.ccn.com/education/crypto/national-crypto-reserves-tracker-countries-bitcoin-state-wealth/",
+          "type": "secondary"
+        }
+      ],
+      "notes": "Highest-uncertainty data point in the Monitor. Treat as estimate, not verified.",
+      "status_history": [
+        {
+          "status": "seized_held",
+          "started_at": "2019-07-01"
+        }
+      ],
+      "source_quality": "secondary",
+      "_derived": {
+        "usd_value": 14769840000,
+        "eur_value": 12727340000,
+        "pct_of_supply": 0.9572
+      }
+    }
+  ]
+}
