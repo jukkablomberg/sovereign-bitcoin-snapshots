@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+message: "If you use this dataset, please cite it as below, and carry the as_of date with any figure."
+type: dataset
+title: "Sovereign Bitcoin reserves by country — snapshots"
+authors:
+  - name: "CoinBucha"
+    website: "https://coinbucha.com"
+version: "2026-10-01"
+date-released: 2026-10-01
+doi: 10.5281/zenodo.23092782
+url: "https://coinbucha.com/sovereign-bitcoin/snapshots/2026-10-01"
+repository: "https://github.com/jukkablomberg/sovereign-bitcoin-snapshots"
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.23092782
+    description: "Snapshot 2026-10-01 (Zenodo)"
+  - type: doi
+    value: 10.5281/zenodo.23004345
+    description: "Snapshot 2026-09-04 (Zenodo)"
+keywords:
+  - bitcoin
+  - sovereign reserves
+  - government holdings
+  - provenance
+abstract: "Government Bitcoin holdings by country, frozen as dated, immutable snapshots. Every row carries its sources and a provenance grade (primary or secondary). Terms: free to access; reuse with attribution to CoinBucha (https://coinbucha.com/methodology#terms). Information, not financial advice."
